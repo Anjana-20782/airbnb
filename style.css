@@ -126,6 +126,11 @@ font-weight: 500;
 
 }
 
+.mainnav1{
+
+    display: none;
+}
+
 .nav2{
 
     width: 100%;
@@ -250,6 +255,59 @@ padding-left: 20px;
     width: 40px;
     height: 40px;
     border-radius: 50%;
+}
+
+
+
+@media screen and (max-width:743px) {
+
+    .nav2{
+
+        display: none;
+    }
+
+    .first3{
+
+        display: none;
+    }
+
+    .first1{
+
+        display: none;
+    }
+
+    .first2{
+
+        width: 100%;
+        height: 50vh;
+    }
+    
+   .mainnav1{
+
+    display: block;
+   }
+
+   .mainnav1 input{
+
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid rgb(205, 201, 201);
+    margin-top: 50px;
+    padding-left: 300px;
+    font-size: 22px;
+   }
+
+   .mainnav{
+
+    height: 50vh;
+    justify-content: space-evenly;
+   }
+
+   
+
+
 }
 
 
