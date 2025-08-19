@@ -508,6 +508,41 @@ height: 30px;
     margin-left: 60px;
 }
 
+.footer6{
+
+    width: 95%;
+    height: 10vh;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    align-items: center;
+   
+}
+
+.foot3 {
+
+    color: rgb(121, 119, 119);
+     display: flex;
+     gap: 10px;
+}
+
+
+
+.foot4 img{
+
+    width: 20px;
+    height: 20px;
+}
+
+.foot4{
+
+     color: rgb(121, 119, 119);
+     display: flex;
+     font-size: 15px;
+     gap: 10px;
+}
+
 
 
 
