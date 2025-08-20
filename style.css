@@ -537,7 +537,7 @@ border-radius: 20px;
 
 .secondtwo{
 
-    gap: 40%;
+    gap: 47%;
     height: 40vh;
 }
 
@@ -645,7 +645,7 @@ width: 150px;
     height: 54vh;
     display: flex;
     /* background-color: green; */
-    border-bottom: 1px solid rgb(219, 208, 208);
+  
 }
 
 .footer3{
@@ -700,6 +700,8 @@ height: 30px;
     justify-content: space-between;
     margin-left: 30px;
     align-items: center;
+      border-top: 1px solid rgb(219, 208, 208);
+    
    
 }
 
@@ -708,6 +710,18 @@ height: 30px;
     color: rgb(121, 119, 119);
      display: flex;
      gap: 10px;
+}
+
+.flex{
+
+    display: flex;
+    gap: 10px;
+}
+
+.foot3 h1{
+
+    font-weight: 100;
+    font-size: 14px;
 }
 
 
@@ -724,6 +738,123 @@ height: 30px;
      display: flex;
      font-size: 15px;
      gap: 10px;
+}
+
+.flex1{
+
+    display: flex;
+    gap: 10px;
+}
+
+.block{
+
+    display: flex;
+    gap: 10px;
+}
+
+
+
+@media screen and (max-width:743px)
+{
+
+    .footer{
+
+        margin-top: 260px;
+        height: 160vh;
+    }
+
+    .footer1{
+
+        position: relative;
+        right: 150px;
+        width: 94%;
+    }
+
+    .footer2{
+
+        position: relative;
+        right: 160px;
+        justify-content: space-between;
+        width: 95%;
+    }
+
+    .main_footer{
+
+        display: block;
+        
+    }
+
+    .footer3{
+
+        height: 33vh;
+        width: 100%;
+        position: relative;
+        right: 40px;
+        border-bottom: 1px solid rgb(168, 164, 164);
+    }
+
+     .footer4{
+
+        height: 45vh;
+        width: 100%;
+        position: relative;
+        right: 90px;
+         border-bottom: 1px solid rgb(168, 164, 164);
+    }
+
+     .footer5{
+
+        height: 33vh;
+        position: relative;
+        right: 90px;
+        bottom: 20px;
+
+    }
+
+     .footer6{
+
+        margin-top: 90%;
+        height: 14vh;
+    }
+
+    .foot3{
+
+        display: block;
+        position: relative;
+        top: 60px;
+        color: rgb(113, 110, 110);
+    }
+    .flex{
+
+        position: relative;
+        top: 8px;
+    }
+
+    .foot4{
+
+        display: block;
+         position: relative;
+         right: 450px;
+           color: rgb(113, 110, 110);
+       
+        
+    }
+
+    .flex1{
+
+        padding-top: 10px;
+    }
+
+
+
+
+
+
+
+
+   
+
+   
 }
 
 
