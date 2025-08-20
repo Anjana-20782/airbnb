@@ -518,6 +518,75 @@ border-radius: 20px;
 
 
 
+@media screen and (max-width :743px)
+{
+
+   .second1{
+
+    width: 65%;
+    height: 4%;
+    margin-left: 60px;
+    margin-top: 40px;
+}
+
+.second1 h1{
+
+    font-size: 19px;
+    font-weight: 900;
+}
+
+.secondtwo{
+
+    gap: 40%;
+    height: 40vh;
+}
+
+.img1 img{
+
+   width: 300px;
+   height: 30vh;
+  
+   
+}
+
+.sentence1 img{
+
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: 90px;
+    bottom: 50px;
+}
+
+.para1 img{
+
+    width: 15px;
+    height: 15px;
+    position: relative;
+    bottom: 6px;
+}
+
+.sentence1 .b1{
+
+bottom: 60px;
+position: relative;
+width: 150px;
+}
+
+.img1 h1{
+
+    width: 240%;
+}
+
+.para1{
+
+    width: 240%;
+}
+} 
+
+
+
+
 
 
 
